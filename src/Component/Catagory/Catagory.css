@@ -1,0 +1,122 @@
+#catagoryBoxes{
+    width: 225px;
+  height: 225px;
+  margin: 1%;
+  
+  background:  #F5A67C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  }
+  #catagoryText{
+    margin-top:40%;
+    color:white;
+    margin-left:20%;
+    font-weight: bold;
+  }
+  body{
+    background:  #F2F3F8;
+  }
+  #cover-container
+  {
+  
+      margin: 5px 0px 30px 0px;
+      height: 250px;
+      width: 100%;
+      white-space: nowrap;
+      overflow-x: scroll;
+      overflow-y: hidden;
+  
+  }
+  #cover-item2
+  {
+    border: none;
+    background-color: white;
+    font-size: 5.5vw;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    margin: 8px 0px;
+    box-shadow: 2px 2px 4px #bbb;
+    width: 14vw;
+    height: 12.5vw;
+    vertical-align: bottom;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.9s;
+  }
+  #cover-item2:hover{
+    background-color:#FF5E00;
+    color: #ffffff;
+  }
+  #catIcon{
+    transition: 0.5s;
+    border: none;
+    margin-top: 5%;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+  }
+  #catIcon:hover{
+    color: #FF5E00;
+  }
+  #cover-item
+  {
+   
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+    margin: 8px 8px;
+    box-shadow: 2px 2px 4px #bbb;
+    width: 150px;
+    height: 178px;
+    vertical-align: bottom;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  
+  #box{position: relative;
+    background: #393D42;
+    border-radius: 10px;
+    overflow-y: auto;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    height: 400px;
+    }
+    *{
+      -ms-overflow-style: none;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  
+  #messagesend{
+    position: relative;
+    width: 60%;
+    height: 45px;
+    margin-top: 3%;
+    background: #646566;
+    border-radius: 30px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    padding-left: 2%;
+    padding-right: 3%;
+    border: none;
+    font-size: 25px;
+    color:#C4C4C4;
+  }
+  #cardDetails{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  #cardTitle{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
